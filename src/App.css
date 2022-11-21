@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.first-title {
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-family: "Lucida Handwriting", "Courier New", "Papyrus", "Times New Roman";
+  color: white;
+}
+
+.background-img {
+  margin-top: 50em;
+  height: 100vh;
+}
+
+.title {
+  font-family: "Lucida Handwriting", "Courier New", "Papyrus", "Times New Roman";
+  position: absolute;
+  background-color: transparent;
+  margin-top: 45%;
+  margin-left: 2em;
+  color: aliceblue;
+}
+
+#info {
+  padding-top: 1em;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(241, 241, 241);
+}
+
+p {
+  font-size: 20px;
+}
+
+.title-about-car {
+  text-align: center;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.about-car {
+  width: 45em;
+}
+
+#pre-order {
+  padding: 1em 1em 2em 1em;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(241, 241, 241);
+}
+
+#footer {
+  padding: 1em 0 0 0;
+}
+
+@media (max-width: 1400px) {
+  .background-img {
+    height: 90vh;
+  }
+  .title {
+    margin-top: 50%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .background-img {
+    height: 80vh;
+  }
+}
+
+@media (max-width: 1000px) {
+  .background-img {
+    height: 70vh;
+  }
+  .title {
+    font-size: 0.5em;
+  }
+}
+
+@media (max-width: 900px) {
+  .background-img {
+    height: 60vh;
+  }
+}
+
+@media (max-width: 750px) {
+  .background-img {
+    height: 50vh;
+  }
+  .title {
+    font-size: 0.3em;
+  }
+  .about-car {
+    width: 30em;
+  }
+  p {
+    font-size: 1em;
+  }
+  .title-about-car {
+    font-size: 1.2em;
+  }
+}
+
+@media (max-width: 700px) {
+  .background-img {
+    height: 40vh;
+  }
+  .title {
+    margin-top: 45%;
+  }
+}
+
+@media (max-width: 600px) {
+  .background-img {
+    height: 35vh;
+  }
+  .about-car {
+    width: 20em;
+  }
+}
+
+@media (max-width: 500px) {
+  .background-img {
+    height: 30vh;
+  }
+}
+
+@media (max-width: 400px) {
+  .background-img {
+    height: 25vh;
+  }
+  .about-car {
+    width: 16em;
+  }
+  p {
+    font-size: 0.8em;
+  }
+  .title-about-car {
+    font-size: 1em;
+  }
+}
